@@ -9,7 +9,6 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 //app.use(session({secret: 'secretKey'}));
 
-
 // api.use(function(req,res,next){
 //     client.set("string key", "string val", redis.print);
 //     next();
