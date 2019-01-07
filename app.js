@@ -15,6 +15,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 //     next();
 // });
 
+// auth check
 // const checkIfAuthenticated = expressJwt({
 //     secret: 'todo-app-super-shared-secret'
 // });
